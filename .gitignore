@@ -1,0 +1,46 @@
+# Build outputs
+bin/
+obj/
+TestResults/
+
+# VS / Rider / tooling
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+_ReSharper*/
+*.DotSettings.user
+*.orig
+
+# Logs & caches
+*.log
+*.tlog
+*.cache
+*.tmp
+
+# NuGet (typically handled via PackageReference, but safe)
+packages/
+*.nupkg
+*.snupkg
+# If you pack locally and want to keep .nupkg, remove the two lines above.
+
+# Publish artifacts (already under bin/, but left for clarity if paths change)
+**/publish/
+
+# Coverage / analysis
+coverage*/
+.coverage
+*.coverage
+*.coveragexml
+.opencover.xml
+.SonarQube/
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# VS Code workspace (keep if you share settings)
+.vscode/
